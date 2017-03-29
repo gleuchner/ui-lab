@@ -5,3 +5,19 @@ body {
     overflow: hidden;
     -webkit-text-fill-color: white;
 }
+.close {
+    background-image: url('../img/button_close.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1000;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.close:hover {
+    background-image: url('../img/button_close_hover.png');
+}
