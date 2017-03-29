@@ -1,0 +1,40 @@
+----------------------------------------------------
+:. HSKA USER INTERFACES & DISTRIBUTED SYSTEMS LAB .:
+----------------------------------------------------
+          \ :. WEB, DESKTOP OR BOTH?  .: /
+           ------------------------------
+		   
+EXERCISE-01: Getting Started: Electron, ES6, NodeJS
+-----------------------------
+Exercise date : 16.March 2017
+Due date      : 30.March 2017
+-----------------------------
+Task-1:
+
+- Electron
+-- Study the Electron webpage (https://electron.atom.io/)
+-- Watch the info video (4 Minutes) (https://youtu.be/8YP_nOCO-4Q)
+-- Explore the Electron APIs (https://github.com/electron/electron-api-demos/releases)
+-- Get started (https://github.com/electron/electron-quick-start)
+-- Look into the docs (https://electron.atom.io/docs/)
+-- Build a deep understanding of the main Electron modules (especially "app", BrowserWindows", "ipc")
+-- Build a simple app. This should be possible after doing the "getting started" part.
+
+- ECMAScript 2015 (a.k.a. ECMAScript 6)
+-- What's new in ES6?
+-- Compare it to TypeScript. What can ES6 do (better), what not?
+-- See: https://en.wikipedia.org/wiki/ECMAScript
+-- See: http://es6-features.org
+
+- NodeJS (https://nodejs.org)
+-- Install NodeJS and look into the node modules structure
+
+Objectives:
+- Each student understands Electron and the basics of ES6
+- Each team will prepare and make a short presentation and 
+  will provide/upload the presentation and a paper to Ilias.
+
+Task-2:
+Send an E-Mail to the tutor (aladdin.oezenir@abas.de)
+Team name, Team members + Matrikelnummer, tyour e-mail addresses and the team captain 
+
