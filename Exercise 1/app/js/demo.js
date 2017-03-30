@@ -83,6 +83,14 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
+        var torusButton = document.getElementById('torus-button');
+        if (torusButton)
+        {
+            torusButton.addEventListener('click', ()=>{
+                addObject(new THREE.TorusGeometry(50, 16, 16, 16));
+            });
+        }
+
     }
 
     function addObject(geometry)
@@ -99,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         object.scale.set( 1, 1, 1 );
         object.position.set( 0, 0, 0 );
 
-        // Finally, add the sphere to the scene.
+        camera.lookAt(object);
         scene.add(object);
         currentObject = object;
     }
