@@ -1,0 +1,28 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-text-fill-color: white;
+}
+
+.keys {
+    float: left;
+    width: 20em; height: 10em;
+    margin-bottom: 1em;
+
+    -webkit-text-fill-color: black;
+}
+
+.button {
+    margin: 5px;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}

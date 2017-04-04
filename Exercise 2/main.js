@@ -11,10 +11,11 @@ app.on('window-all-closed', function() {
 // This method will be called when Electron has done everything
 // initialization and ready for creating browser windows.
 app.on('ready', function() {
-    // Create the browser window.
-    mainWindow = new BrowserWindow({width: 800, height: 600, frame:true});
 
-// disable the menu
+    // Create the browser window using the BrowserWindow Module.
+    mainWindow = new BrowserWindow({width: 800, height: 600, frame:false});
+
+    // disable the menu
     mainWindow.setMenu(null);
 
     // and load the index.html of the app.
