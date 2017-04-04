@@ -1,0 +1,46 @@
+----------------------------------------------------
+:. HSKA USER INTERFACES & DISTRIBUTED SYSTEMS LAB .:
+----------------------------------------------------
+          \ :. WEB, DESKTOP OR BOTH?  .: /
+           ------------------------------
+		   
+EXERCISE-02: Electron Components
+-----------------------------
+Exercise date : 30.March 2017
+Due date      : 06.April 2017
+-----------------------------
+
+Task-1:
+
+- Electron
+-- Study the Electron modules (https://electron.atom.io/docs/)
+-- Build a deep understanding of your teams specific Electron modules
+--> [muon] app, BrowserWindow, Frameless Window, window.open Function
+--> [T42] Cookies, session, dialog, Locales, globalShortcut+Accelerator
+--> [????] net, DownloadItem, ClientRequest
+--> [Placeholder] ipcMain, ipcRenderer, process, IncomingMessage
+--> [Pffff] tray, webContents, WebRequest, webFrame, <webview> Tag
+--> [SAKK] File Object, remote, nativeImage, systemPreferences
+--> [T3] clipboard, Environment Variables, screen, Menu+MenuItem
+--> [MSB] Application Distribution, Application Packaging, online/ofline event detection
+
+-- Build an app where you use the modules
+-- Use EcmaScript6 in your application
+-- Explain the class how to use these modules and talk about the good/bad parts
+
+Objectives:
+- Each student understands Electron modules and can integrate them into the project
+- Each team will prepare and make a short presentation and 
+  will provide/upload the presentation and a paper to Ilias.
+- Upload your app with all its content to Ilias as a ZIP file
+
+Task-2:
+- Every team has a Slack channel
+-- Sign-up at ui-labteam.slack.com
+-- Use your HSKA e-mail. This will do the job automatically
+- Every team member is in the team channel
+- Team captains inform me (aladdin.oezenir@abas.de), 
+  as soon as their channel including the team members is up and running
+
+
+
