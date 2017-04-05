@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron');
+const {ipcMain} = require('electron')
 
 let mainWindow;
 
@@ -8,12 +9,22 @@ app.on('window-all-closed', function() {
         app.quit();
 });
 
+
+ipcMain.on('relaunch-message', (event, arg) => {
+    app.relaunch();
+    app.quit();
+})
+
+ipcMain.on('quit-message', (event, arg) => {
+    app.quit();
+})
+
 // This method will be called when Electron has done everything
 // initialization and ready for creating browser windows.
 app.on('ready', function() {
 
     // Create the browser window using the BrowserWindow Module.
-    mainWindow = new BrowserWindow({width: 800, height: 600, frame:false});
+    mainWindow = new BrowserWindow({width: 350, height: 400, frame:false});
 
     // disable the menu
     mainWindow.setMenu(null);
