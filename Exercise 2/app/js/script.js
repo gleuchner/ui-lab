@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+
     var button2 = document.getElementById('relaunch');
     if (button2) {
         button2.addEventListener('click', () => {
@@ -31,6 +32,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    var button4 = document.getElementById('border-window');
+    if (button4) {
+        button4.addEventListener('click', () => {
+            ipcRenderer.send('border-message', '')
+        });
+    }
 
 });
 
